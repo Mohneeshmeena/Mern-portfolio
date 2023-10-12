@@ -1,0 +1,24 @@
+{
+  "name": "mohneesh-portfolio",
+  "version": "1.0.0",
+  "description": "I am Mohneesh Meena and this is My portfolio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React.js",
+    "Express.js",
+    "Node.js",
+    "Mongoose",
+    "Mongodb",
+    "Html",
+    "Css",
+    "Bootstrap."
+  ],
+  "author": "Mohneesh Meena",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  }
+}

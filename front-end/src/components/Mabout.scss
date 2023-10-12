@@ -1,0 +1,292 @@
+.stage-cube-cont {
+    width: 50%;
+    height: 100%;
+    top: 0;
+    padding-top: 18%;
+    margin-left: 0;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+  }
+  
+  .cubespinner {
+    animation-name: spincube;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+    transform-style: preserve-3d;
+    transform-origin: 100px 100px 0;
+    margin-left: calc(50% - 100px);
+  
+    div {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      border: 1px solid #ccc;
+      background: rgba(255, 255, 255, 0.4);
+      text-align: center;
+      font-size: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 20px 0px lightyellow;
+    }
+  
+    .face1 {
+      transform: translateZ(100px);
+      color: #dd0031;
+    }
+    .face2 {
+      transform: rotateY(90deg) translateZ(100px);
+      color: #f06529;
+    }
+    .face3 {
+      transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+      color: #28a4d9;
+    }
+    .face4 {
+      transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+      color: #5ed4f4;
+    }
+    .face5 {
+      transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+      color: #efd81d;
+    }
+    .face6 {
+      transform: rotateX(-90deg) translateZ(100px);
+      color: #ec4d28;
+    }
+  }
+  
+  @keyframes spincube {
+    from,
+    to {
+      transform:  rotateY(0deg) rotateZ(0deg);
+    }
+    16% {
+      transform: rotateY(-90deg) rotateZ(90deg);
+    }
+    33% {
+      transform: rotateY(-90deg) rotateX(90deg);
+    }
+    50% {
+      transform: rotateY(-180deg) rotateZ(90deg);
+    }
+    66% {
+      transform: rotateY(-270deg) rotateX(90deg);
+    }
+    83% {
+      transform: rotateX(90deg);
+    }
+  }
+  
+  .skillarea{
+    margin-top: 100vh;
+    width: 100%;
+    background-color: black;
+  }
+  
+  .skillcontainer{
+    width: 100%;
+    height: 60vh;
+    margin-top: 1vh;
+    background-color: white;
+  
+  }
+  .skillsub{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  background-color: #dd0031;
+  
+  }
+  .skillanime{
+  
+    width: 35%;
+    height: 100%;
+    //background-color:#50C878;
+    background-image: url("https://source.unsplash.com/random/900x700/?red");
+
+  }
+  
+  .anime1{
+    margin-top: 5%;
+    margin-left: 10%;
+  
+  
+  }
+  
+  
+  .anime{
+    width: 65%;
+    height: 65%;
+  margin-left: 30px;
+  
+  
+  
+    animation-name: spincircle;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    
+  }
+  
+  
+  @keyframes spincircle {
+    0% {transform: rotate(0deg);}
+  
+    50% {transform: rotate(180deg);}
+  
+    100% {transform: rotate(360deg);}
+  
+  }
+  
+  
+  .skilldetail{
+    background-image: url("https://source.unsplash.com/random/900x700/?black");
+    width: 65%;
+    height: 100%;
+    margin-left: 1px;
+  }
+  
+  
+  .Listbox{
+    width: 400px;
+    height: 200px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+  
+   &:li{
+    list-style:none ;
+   } 
+  
+  }
+  .listtext{
+    color: #FFD700;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-style: oblique;
+    
+  }
+
+  html {
+    background-color: #E24666;
+  }
+
+  .animetitle{
+   
+    color:white;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+   margin-left: 50px;
+   margin-top: 15px; 
+
+  }
+
+  .iconimg{
+    height: 70px;
+    width:70px;
+    border: #5ed4f4;
+    border-radius: 50%;
+    border-style: outset;
+    border-width: 5px;
+    margin-left: 38px;
+    animation: iconanime1 10s linear infinite;
+    animation-direction:normal;   
+    
+  }
+
+  @keyframes iconanime1{
+    0%{
+      transform: translateY(2vh);
+      box-shadow: 0px -20px 10px 5px cyan;
+ 
+    }
+
+    50%{
+      transform: translateY(28vh);
+      box-shadow: 0px 0px cyan;
+  
+    }
+    60%{
+
+      transform: translateY(22vh);
+      box-shadow: 0px 0px 0px 5px cyan, 0px 0px 0px 2px cyan;
+ 
+    }
+
+    70%{
+
+      transform: translateY(16vh);
+      box-shadow: 0px 0px 0px 0px cyan; 
+ 
+    }
+
+        80%{
+
+      transform: translateY(10vh);
+      box-shadow: 0px 0px 0px 5px cyan, 0px 0px 0px 5px cyan;
+ 
+    }
+
+        90%{
+
+      transform: translateY(6vh);
+      box-shadow: 0px 0px 2px 5px cyan;
+ 
+    }
+
+
+    100%{
+      transform: translateY(2vh);
+      box-shadow: 0px 0px cyan;
+ 
+    }
+   } 
+
+
+
+
+
+  .iconname{
+    height: 60px;
+    width: 65px;
+
+color:white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+   margin-left: 40px;
+   margin-top: 32vh;
+   justify-content: center; 
+
+   border-color: cyan;
+border-width: 5px;
+   animation: iconanime2 10s linear infinite;
+   animation-duration: 5s;
+   animation-direction:alternate-reverse;   
+  
+  }
+  
+  @keyframes iconanime2{
+    0%{
+      //transform: translateY(25vh);
+      box-shadow: 0px -18px 10px 0.3px cyan;
+    }
+
+    50%{
+      //transform: translateY(28vh);
+      box-shadow: 0px -10px 10px 0.1px  cyan;
+    }
+
+    100%{
+      //transform: translateY(25vh);
+      box-shadow: 0px -18px 10px 0.3px  cyan;
+    }
+   } 
