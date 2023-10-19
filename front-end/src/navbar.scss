@@ -1,0 +1,65 @@
+.listbox{
+    display: flex;
+    flex-direction: row;
+    
+  margin-right: 150px;
+  margin-top: -20px;
+  }
+  
+  .listitem{
+    font-size: 18px;
+  
+    font-family: 'Mina', sans-serif;
+      font-weight: 500;
+    color: white;
+    margin-left: 30px;
+    margin-top: 15px;
+    text-decoration: none;
+  
+  
+  }
+  .logo{
+    text-decoration:overline;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: white;
+    border-radius: 1px;
+    border-width: 5px;
+    margin-top: 5px;
+    margin-left: 15px;
+  height: 40px;
+  animation-name: Navanimation;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  }
+  @keyframes Navanimation {
+    0% {
+      background-color:black;
+      left: 0px;
+      top: 0px;
+    }
+    25% {
+      background-color: #FF9900;
+      opacity:0.6;
+      left: 0px;
+      top: 0px;
+    }
+    50% {
+      background-color:#57F287;
+      left: 0px;
+      top: 0px;
+    }
+    75% {
+      background-color: #ffb80e;
+      left: 0px;
+      top: 0px;
+    }
+    100% {
+      background-color: #813531;
+      left: 0px;
+      top: 0px;
+    }
+  }
+  

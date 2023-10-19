@@ -4,10 +4,9 @@ import Certificate from './components/Mcertificates'
 import Project from './components/Mproject'
 import About from './components/Mabout'
 import Contact from './components/Mcontact'
-import Slidebar from './components/Sidebar'
-import Layout from './components/Layout'
 import Details from './components/Mdetails'
-
+import Practise from './components/Practise';
+import Navbar from './navbar'
 
 import {
   BrowserRouter as Router,
@@ -22,13 +21,13 @@ function App() {
       <div>
         <Routes>
           <Route exact path='/certificates' element={<Certificate></Certificate>} />
-          <Route exact path='/slidebar' element={<Slidebar></Slidebar>} />
           <Route exact path='/project' element={<Project></Project>} />
-          <Route exact path='/layout' element={<Layout />} />
           <Route exact path='/about' element={<About />} />
           <Route path="/details" element={<Details />} />
           <Route path="/contact" element={<Contact />} />
-          <Route exact path='/' element={<Main />} />
+          <Route path="/all" element={< Practise/>} />
+          <Route exact path='/main' element={<Main />} />
+          <Route exact path='/navbar' element={<Navbar />} />
         
 
         </Routes>

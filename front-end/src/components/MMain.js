@@ -4,9 +4,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from './AnimatedLetters'
 import LogoTitle from '../assets/images/logo-s.png'
 import img1 from '../assets/certifications/wave.png'
-import Logo from './Logo'
 import './MMain.scss'
-import Sidebar from './Sidebar'
 const MMain = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
@@ -39,7 +37,6 @@ const MMain = () => {
     <>
 
       <div className="container home-page">
-        <Sidebar/>
         <div className="text-zone">
           <h1>
             <span className={letterClass}>H</span>
@@ -68,7 +65,6 @@ const MMain = () => {
             CONTACT ME
           </Link>
         </div>
-        <Logo />
       </div>
 <img className='wave' src={img1}></img>
 <img className='wave1' src={img1}></img>

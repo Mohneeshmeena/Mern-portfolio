@@ -21,15 +21,10 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
+              strArray={['.']}
               idx={15}
             />
           </h1>
-          <p>
-            I am interested in IT opportunities - especially on ambitious
-            projects. However, if you have any other vacancy
-            , please to contact me using below form either.
-          </p>
 
           <div className="contact-form">
             <li className='cp1'><h2 className='Mtext'> Monheesh Meena</h2></li>

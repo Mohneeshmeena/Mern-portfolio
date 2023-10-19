@@ -1,26 +1,12 @@
 import React from 'react'
 import './Mproject.scss'
-import { Link } from 'react-router-dom'
 
 const Mproject = () => {
     return (
         <>
             <div className='full'>
                 <div className='layout'>
-                    <nav className='navbar'>
-                        <div className='logo'>Mohneesh Meena</div>
-                        <div className='listbox'>
-                        <Link className='listitem' to="/" >Home</Link>
-                            <Link className='listitem' to="/details" >Myself</Link>
-                            <Link className='listitem' to="/about" >MySkills</Link>
-                            <Link className='listitem' to="/project" >MyProjects</Link>
-                            <Link className='listitem' to="/certificates" >MyCertificates</Link>
-                            <Link className='listitem' to="/contact" >Contact Me</Link>
-                        </div>
-
-                    </nav>
-
-
+         
 
 
                     <div className='projectbox'>

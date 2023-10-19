@@ -40,9 +40,9 @@ const Mabout = () => {
     })
 
     return (
-        <>
-            <div className="container about-page">
-                <div className="text-zone">
+        <div className='backm'>
+            <div className="container">
+                <div className="textzone">
                     <h1 className='listtext'>
                         <AnimatedLetters
                             letterClass={letterClass}
@@ -218,7 +218,7 @@ const Mabout = () => {
 
 
             <Loader type="pacman" />
-        </>
+        </div>
     )
 }
 

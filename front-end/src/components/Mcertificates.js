@@ -11,6 +11,8 @@ import img6 from '../assets/certifications/6.PNG'
 const Mcertificate = () => {
   return (
     <div className='maincontainer'>
+      <div className='titleback'><h1 className='titlename'>Certifitions</h1></div>
+
       <div className='subcontainer'><div className='certificatecontainer'><h1 className='certificatetitle'> 1:C++</h1><img className='imgbox' src={img1} alt='wait'></img></div></div>
       <div className='subcontainer'><div className='certificatecontainer'><h1 className='certificatetitle'> 2:Data Structures</h1><img className='imgbox' src={img2} alt='wait'></img></div></div>
       <div className='subcontainer'><div className='certificatecontainer'><h1 className='certificatetitle'> 3:Networking Essentials</h1><img className='imgbox' src={img3} alt='wait'></img></div></div>

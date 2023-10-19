@@ -1,12 +1,16 @@
+html {
+  background-image: url("https://source.unsplash.com/random/900x700/?black"); 
+}
+
+
+
 .stage-cube-cont {
-    width: 50%;
-    height: 100%;
-    top: 0;
+    width: 40%;
+    height: 60%;
     padding-top: 18%;
-    margin-left: 0;
-    position: absolute;
-    right: 0;
-    overflow: hidden;
+    margin-left: 55%;
+    margin-top: -40%;
+    
   }
   
   .cubespinner {
@@ -98,7 +102,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-  background-color: #dd0031;
+  background-color: black;
   
   }
   .skillanime{
@@ -106,8 +110,8 @@
     width: 35%;
     height: 100%;
     //background-color:#50C878;
-    background-image: url("https://source.unsplash.com/random/900x700/?red");
-
+   
+    background-image: url("https://source.unsplash.com/random/900x700/?galaxy");
   }
   
   .anime1{
@@ -144,7 +148,7 @@
   
   
   .skilldetail{
-    background-image: url("https://source.unsplash.com/random/900x700/?black");
+    background-image: url("https://source.unsplash.com/random/900x700/?galaxy");
     width: 65%;
     height: 100%;
     margin-left: 1px;
@@ -174,9 +178,6 @@
     
   }
 
-  html {
-    background-color: #E24666;
-  }
 
   .animetitle{
    
@@ -290,3 +291,31 @@ border-width: 5px;
       box-shadow: 0px -18px 10px 0.3px  cyan;
     }
    } 
+
+
+   .container{
+height: 100%;
+width: 100%;
+
+
+   }
+
+
+
+   .textzone{
+    height: 60%;
+    width: 45%;
+    margin-top: 25%;
+    margin-left: 40PX;
+background-color:black;
+   }
+
+   P {
+    color:white;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+  }
