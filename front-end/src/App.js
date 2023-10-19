@@ -25,10 +25,10 @@ function App() {
           <Route exact path='/about' element={<About />} />
           <Route path="/details" element={<Details />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/all" element={< Practise/>} />
+          <Route path="/" element={< Practise />} />
           <Route exact path='/main' element={<Main />} />
           <Route exact path='/navbar' element={<Navbar />} />
-        
+
 
         </Routes>
       </div>
